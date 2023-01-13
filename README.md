@@ -1,2 +1,5 @@
 # Numerical-ascending-sorting
-Sorting numerics in ascending order
+
+[100, 1000, 10, 10000, 1].sort(function(a, b) {
+ return a - b;
+});
